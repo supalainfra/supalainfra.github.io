@@ -2,6 +2,11 @@ html, body {
     height: 100%;
     margin: 0;
 }
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
 .header-bg {
     background-color: #0a078af0 !important;
     padding: 0rem !important;
@@ -17,7 +22,6 @@ html, body {
     background-color: #b60d21 !important;
 }
 .bg-fp-img1 {
-    
     background-image: url("../img/test_bgimg.jpg");
     height: 60%;
     opacity: 0.65;
