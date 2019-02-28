@@ -1,0 +1,45 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.header-bg {
+    background-color: #0a078af0 !important;
+    padding: 0rem !important;
+}
+.header-bg a {
+    color: #ffff !important;
+    padding: 30px 25px !important;
+}
+.header-bg a:hover {
+    background-color: #02020ff0 !important;
+}
+.bg-cred {
+    background-color: #b60d21 !important;
+}
+.bg-fp-img1 {
+    
+    background-image: url("../img/test_bgimg.jpg");
+    height: 60%;
+    opacity: 0.65;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg-fp-img2 {
+    
+    background-image: url("../img/kolatam.jpg");
+    height: 70%;
+    opacity: 0.2;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
