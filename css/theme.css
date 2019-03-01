@@ -21,9 +21,10 @@ html, body {
 .bg-cred {
     background-color: #b60d21 !important;
 }
-.bg-fp-img1 {
+
+.bg-fp-img1 { 
     background-image: url("../img/test_bgimg.jpg");
-    height: 60%;
+    height: 90%;
     opacity: 0.65;
     background-repeat: no-repeat;
     background-position: center;
@@ -32,10 +33,11 @@ html, body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    
+    padding: 20px
 }
 
 .bg-fp-img2 {
-    
     background-image: url("../img/schevent_rr1.jpg");
     height: 70%;
     opacity: 0.5;
@@ -47,3 +49,19 @@ html, body {
     -o-background-size: cover;
     background-size: cover;
 }
+
+.text-block {
+    width: 35%;
+    padding: 15px;
+    color: white;
+    background: rgb(7, 6, 6); 
+    background: rgba(199, 0, 0, 0.5);
+    margin-top: 20px
+}
+
+@media screen and (max-width: 700px) { /* Specific to this particular image */
+    .text-block {
+        width: 100%;
+    }
+  }
+
